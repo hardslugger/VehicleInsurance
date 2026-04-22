@@ -29,11 +29,11 @@ REGION_NAME = "us-east-1"
 """
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
 """
-DATA_INGESTION_COLLECTION_NAME: str = "Proj1-Data"
+DATA_INGESTION_COLLECTION_NAME: str = "Vehicleinsurance-Data"
 DATA_INGESTION_DIR_NAME: str = "data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 DATA_INGESTION_INGESTED_DIR: str = "ingested"
-DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.25
+DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO: float = 0.20
 
 """
 Data Validation realted contant start with DATA_VALIDATION VAR NAME
